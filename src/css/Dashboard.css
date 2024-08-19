@@ -1,0 +1,103 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+.dashboard .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dashboard .top-bar .search-bar {
+  flex: 1;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.dashboard .top-bar .user-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.dashboard .dashboard-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.dashboard .dashboard-content .sidebar {
+  width: 250px;
+  background-color: #282c34;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.dashboard .dashboard-content .sidebar .sidebar-link {
+  display: block;
+  padding: 1rem;
+  color: #ffe600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dashboard .dashboard-content .sidebar .sidebar-link:hover {
+  background-color: #1c1f24;
+  color: #fff;
+}
+.dashboard .dashboard-content .main-content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.dashboard .dashboard-content .main-content .card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+.dashboard .dashboard-content .main-content .card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #2575fc;
+  margin-bottom: 0.5rem;
+}
+.dashboard .dashboard-content .main-content .card p {
+  margin-bottom: 1rem;
+}
+.dashboard .dashboard-content .main-content .card:hover {
+  transform: scale(1.02);
+}
+.dashboard .dashboard-content .main-content .card .dashboard-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ffe600;
+  color: #282c34;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.dashboard .dashboard-content .main-content .card .dashboard-link:hover {
+  background-color: #ffd700;
+}/*# sourceMappingURL=Dashboard.css.map */

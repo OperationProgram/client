@@ -1,0 +1,143 @@
+.home {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Ensure relative positioning for the button wrapper */
+}
+
+/* Hero Section */
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Matches header background */
+    position: relative;
+    border-bottom: 5px solid #ffe600; /* Adds a vibrant divider under the hero */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ffe600; /* Makes the text stand out */
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    position: absolute; /* Absolute positioning to place buttons on the right side */
+    right: 2rem; /* Adjust as needed */
+    top: 6rem; /* Align with the top of the hero content */
+    width: 100%;
+}
+
+.cta-button,
+.login-button,
+.register-button {
+    background-color: #ffe600; /* Matches hover color in the header */
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px; /* Consistent with the header button style */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover,
+.login-button:hover,
+.register-button:hover {
+    background-color: #000;
+    color: #ffe600;
+    transform: scale(1.05);
+}
+
+/* How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #fff; /* White text for readability */
+}
+
+.how-it-works h2 {
+    margin-bottom: 1.5rem;
+    color: #ffe600; /* Accent color for titles */
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.step {
+    max-width: 300px;
+    text-align: center;
+    background-color: #282c34; /* Darker background for steps */
+    padding: 1rem;
+    border-radius: 10px; /* Slight rounding for a softer look */
+    color: #fff;
+}
+
+.step h3 {
+    color: #ffe600; /* Accent color for step titles */
+}
+
+/* Featured Projects Section */
+.featured-projects {
+    padding: 2rem 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.featured-projects h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffe600; /* Consistent use of the accent color */
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project {
+    background-color: #282c34;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02);
+        background-color: #ffe600;
+        color: #000;
+    }
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #282c34;
+    color: #ffe600;
+}
+
+.cta h2 {
+    margin-bottom: 1rem;
+}

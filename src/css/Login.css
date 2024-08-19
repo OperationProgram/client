@@ -1,0 +1,62 @@
+/* src/css/Login.css */
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background matching the dashboard */
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #333; /* Dark background for the form container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #f7f7f7; /* Light color for heading */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #f7f7f7; /* Light color for labels */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #444; /* Dark border for input fields */
+  border-radius: 5px;
+  background-color: #555; /* Dark background for input fields */
+  color: #f7f7f7; /* Light text color for input fields */
+}
+
+.submit-buttonn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffeb3b; /* Yellow button color */
+  color: #282c34; /* Dark text color for button */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-buttonn:hover {
+  background-color: #fdd835; /* Slightly darker yellow on hover */
+}/*# sourceMappingURL=Login.css.map */

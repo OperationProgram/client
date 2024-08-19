@@ -1,0 +1,34 @@
+.profile {
+  padding: 2rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.profile-details {
+  margin-top: 2rem;
+}
+
+.profile-details h2 {
+  margin-top: 1rem;
+}
+
+.profile-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-details li {
+  margin: 0.5rem 0;
+}/*# sourceMappingURL=Profile.css.map */

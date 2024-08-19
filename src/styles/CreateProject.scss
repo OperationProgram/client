@@ -1,0 +1,62 @@
+// CreateProject.scss
+
+.create-project {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #282c34; // Charcoal background
+    color: #fff; // White text
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h1 {
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        color: #ffe600; // Yellow color for headings
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #333; // Dark background for input fields
+        color: #fff; // White text
+        outline: none;
+
+        &:focus {
+            background-color: #444; // Slightly lighter background on focus
+        }
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    .submit-button {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffe600; // Yellow button
+        color: #282c34; // Charcoal text
+        font-size: 1.25rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #ffd700; // Lighter yellow on hover
+        }
+    }
+}

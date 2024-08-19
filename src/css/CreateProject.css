@@ -1,0 +1,55 @@
+.create-project {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #282c34;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.create-project h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #ffe600;
+}
+.create-project label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.create-project input,
+.create-project textarea,
+.create-project select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  outline: none;
+}
+.create-project input:focus,
+.create-project textarea:focus,
+.create-project select:focus {
+  background-color: #444;
+}
+.create-project textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.create-project .submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffe600;
+  color: #282c34;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.create-project .submit-button:hover {
+  background-color: #ffd700;
+}/*# sourceMappingURL=CreateProject.css.map */
